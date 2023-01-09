@@ -1,3 +1,12 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+.product  {
+    width:400px;
+}
+
+.prodpic  {
+    max-height: 200px;
+    max-width: 400px;
 }

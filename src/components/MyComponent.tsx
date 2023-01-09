@@ -8,10 +8,10 @@ interface Iprops{
 
 const MyComponent = (props:Iprops) => {
   return (
-    <div>
-        <h1>Name - {props.name}</h1>
-        <h3>Num = {props.num}</h3>
-        <h4>{props.isLoggedIn ? 'Loggen In':'Logged Out'}</h4>
+    <div className='card'>
+        <h2>Name - {props.name}</h2>
+        <h4>Num = {props.num}</h4>
+        <h5>{props.isLoggedIn ? 'Loggen In':'Logged Out'}</h5>
     </div>
   )
 }

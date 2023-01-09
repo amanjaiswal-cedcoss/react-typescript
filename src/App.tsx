@@ -127,7 +127,7 @@ function App() {
   return (
     <div className="App">
       <MyComponent name="Aman Jaiswal" num={10} isLoggedIn={true} />
-      {products.map(ele=>{return <Product id={ele.id} title={ele.title} price={ele.price} rating={ele.rating} images={ele.images}/>})}
+      {products.map(ele=>{return <Product key={ele.id} id={ele.id} title={ele.title} price={ele.price} rating={ele.rating} images={ele.images}/>})}
     </div>
   );
 }
